@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "SlimeDetector",
+        "description": "This mod aims to simplify the tedious process of finding slime chunks in your Minecraft world.",
         "pack_format": 6,
         "_comment": "A pack_format of 6 requires json lang files and some texture changes from 1.16.2. Note: we require v6 pack meta for all mods."
     }
