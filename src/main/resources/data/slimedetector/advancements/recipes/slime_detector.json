@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_stick_item",
+      "has_the_recipe"
+    ]
+  ],
+  "criteria": {
+    "has_stick_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "slimedetector:slime_detector"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "slimedetector:slime_detector"
+    ]
+  }
+}

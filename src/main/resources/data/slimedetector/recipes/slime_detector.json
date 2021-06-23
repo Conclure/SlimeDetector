@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    " X ",
+    " # "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:slime_ball"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slimedetector:slime_detector"
+  }
+}
