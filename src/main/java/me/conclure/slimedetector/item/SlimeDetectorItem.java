@@ -31,7 +31,6 @@ public class SlimeDetectorItem extends Item implements IVanishable {
 
   public SlimeDetectorItem(Properties properties) {
     super(properties);
-    StockModelShapes.FLAT_HANDHELD_ITEM.create(ModelsResourceUtil.getModelLocation(this), ModelTextures.layer0(this),(o0,o1) -> {});
   }
 
   @SuppressWarnings("NullableProblems")
